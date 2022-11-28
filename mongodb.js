@@ -14,9 +14,3 @@ async function dbconnect() {
 module.exports=dbconnect;
 
 
-// const main=async ()=>{
-//     let data=await dbconnect()
-//     data=await data.find().toArray();
-//     console.log(data);
-// }
-// main()
